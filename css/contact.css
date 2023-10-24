@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.section1 {
+    width: 80%;
+    height: 30vw;
+    /* background-color: red; */
+    margin: auto;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid gray;
+}
+
+.section1-container{
+    width: 33%;
+    height: 30vw;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section1-container-circle{
+    width: 31%;
+    height: 8vw;
+    border-radius: 50%;
+    background-color: var(--color);
+}
+
+.section1-container h2{
+    
+margin: 10px;
+}
+.section1-container h6{
+    
+margin: 10px;
+font-weight: 100;
+font-size: 15px;
+color: var(--color2);
+}
+
+
+.form-heading{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.form-heading h1{
+   font-weight: 500;
+    
+    margin: 30px 0 0 0;
+}
+
+.form-heading h4{
+   
+    font-weight: 100;
+    margin: 30px 0 0 0;
+}
+
+.form{
+    width: 50%;
+    /* height: 10vw; */
+    /* background-color: lightgreen; */
+    margin: auto;
+    margin-top: 30px;
+}
+.first-line input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: auto;
+    margin: 10px;
+    padding: 17px 117px 17px 30px;
+    font-size: medium;
+    
+}
+.first-line select {
+    border-radius: 5px;
+    border: 1px solid gray;
+    border: none;
+    margin: auto;
+    margin: 10px;
+    padding: 17px 14vw 17px 30px;
+    font-size: medium;
+    
+}
+.first-line select option{
+    border: px solid black;
+}
+.first-line textarea{
+    border-radius: 5px;
+    width: 43vw;
+    padding: 1vw;
+    margin: 27px;
+    font-size: 20px;
+}
+
+#submit{
+    padding: 1vw 22vw;
+    background-color: var(--color);
+    color: white;
+}
+
+.section2-container{
+    width: 80%;
+    /* height: 30vw; */
+    /* background-color: lightsalmon; */
+    margin: auto;
+    margin-top: 10vw;
+    margin-bottom: 7vw;
+}
+
+.section2-container h2{
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+}
+.section2 h5 {
+    color: black;
+margin-bottom: 1vw;
+    padding: 25px 40px;
+    letter-spacing: 1px;
+    background-color: var(--color1);
+    border-radius: 6px;
+    transition: .2s linear;
+}
+.section2 h5:hover{
+    background-color: var(--color);
+    color: white;
+}
+
+.section2 ul{
+    padding: 18px 25px;
+    color: gray;
+    line-height: 1.4;
+    display: none;
+    transition: all ease-in 0.2s;
+}
+.section2 ul li{
+   margin-left: 20px;
+}
+.section2 p{
+    padding: 18px 25px;
+    color: gray;
+    line-height: 1.4;
+    display: none;
+}
+
+.section2 h3 {
+    margin: 35px 0 0 14px;
+    font-size: 1.4rem;
+}

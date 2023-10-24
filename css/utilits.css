@@ -1,0 +1,41 @@
+:root {
+    --font: 'Poppins', sans-serif;
+    --color: #ff7700;
+    --color1: rgb(242, 242, 242);
+    --color2: rgb(108, 107, 107);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.saftly {
+
+    color: var(--color);
+}
+
+.hr {
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.hr1{
+    opacity: 40%;
+}
+
+.details-line {
+    position: relative;
+    height: 2px;
+    z-index: -1;
+    width: 65%;
+    opacity: 18%;
+    margin: auto;
+    background-color: black;
+}
+
+
+#our-all
+{
+    font-weight: 100;
+
+}

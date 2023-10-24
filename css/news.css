@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    margin: 4vw 0;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.section{
+    display: flex;
+}
+
+.section1{
+    width: 70%;
+    /* height: 10vw; */
+    /* background-color: lightgreen; */
+}
+
+.section2{
+    width: 30%;
+    height: 40vw;
+    background-color: var(--color1);
+}
+
+.section1 img{
+    width: 100%;
+}
+.section1 h1{
+    font-size: 2.2rem;
+    margin: 10px;
+}
+.section1 h1:hover{
+    color: var(--color);
+}
+
+.news1{
+    display: flex;
+}
+.news1 h6{
+    margin: 7px;
+   color: var(--color2);
+
+}
+
+.news1 h6:hover{
+    color: var(--color);
+    cursor: pointer;
+}
+
+.section1 p{
+    margin: 24px 2px;
+    color: var(--color2);
+    line-height: 1.4;
+}
+
+
+#img2{
+    width: 40%;
+}
+.img3{
+    width: 100%;
+    margin: 3vw 0;
+}
+
+.section1 ul{
+line-height: 2;
+padding: 17px 41px;
+color: var(--color2);
+font-size: 0.8rem;
+
+
+}
+
+
+.section2 input{
+    padding: 10px;
+    width: 80%;
+    margin: 40px 26px; 
+    border: none;
+
+
+}
+
+.section2 h3{
+    margin-left: 26px;
+}
+
+  .news2 h6{
+    margin: 18px;
+    PADDING: 15px 225px 15px 14px;
+    background-color: white;
+    text-align: left;
+}
+
+.news2 h6:hover{
+    color: var(--color);
+    cursor: pointer;
+}
+
+.section2-container{
+    display: flex;
+}
+
+.section2-container img{
+width: 40%;
+
+
+}

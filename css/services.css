@@ -1,0 +1,149 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+ 
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.main h1 {
+    margin: 40px 10px;
+}
+
+.section {
+    width: 100%;
+    /* height: 60vw; */
+    /* background-color: black; */
+    display: flex;
+
+}
+
+.section1 {
+    width: 30%;
+    /* height: 50vw; */
+    /* background-color: whitesmoke; */
+}
+
+.section2 {
+    width: 70%;
+    /* height: 60vw; */
+    /* background-color: royalblue; */
+}
+
+.section1 h5 {
+    width: 100%;
+    border: 1px solid gray;
+    letter-spacing: 1px;
+    padding: 24px 0 24px 24px;
+}
+
+.section1-container {
+    width: 90%;
+    padding: 10px;
+    /* height: 45%; */
+    margin-top: 3vw;
+    opacity: 80%;
+    background-color: var(--color);
+}
+
+.section1-container img {
+    width: 24%;
+    margin: 37px 37%;
+}
+
+.section1-container h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.section1-container h4 {
+    text-align: center;
+    margin: 25px;
+    color: whitesmoke;
+}
+
+.section2 h5 {
+    color: white;
+
+    padding: 25px 40px;
+    letter-spacing: 1px;
+    background-color: var(--color);
+    border-radius: 6px;
+}
+
+.section2 p {
+    padding: 18px 25px;
+    color: gray;
+    line-height: 1.4;
+}
+
+.section2 h3 {
+    margin: 35px 0 0 14px;
+    font-size: 1.4rem;
+}
+
+.section3 {
+    /* height: 27vw; */
+    width: 70%;
+    position: relative;
+    left: 25vw;
+    margin: 50px 0;
+    display: flex;
+    /* background-color: red; */
+}
+
+.section3-box1 {
+    width: 50%;
+    /* height: 100%; */
+    /* background-color: #fff; */
+}
+
+.section3-box1 img {
+    width: 90%;
+    border-radius: 12px
+}
+
+.section3-box2 h4 {
+    margin: 0 10px;
+}
+
+
+.section3-box2 ol {
+    margin: 12px 33px;
+    line-height: 2;
+}
+
+
+.section4 {
+    height: 20vw;
+    width: 80%;
+    /* background-color: red; */
+    /* margin: 0 0 0 380px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1vw;
+    grid-auto-rows: minmax(4vw);
+    margin: auto;
+}
+
+.section4-box{
+border-left: 1px solid gray;
+/* background-color: lightcyan; */
+/* box-shadow: inset 0px 0px 72px -34px rgba(0,0,0,0.75); */
+padding: 2vw;
+}
+
+.section4-box h6{
+    margin: 10px 0;
+    font-size: 15px;
+    color: gray;
+    font-weight: 400;
+}

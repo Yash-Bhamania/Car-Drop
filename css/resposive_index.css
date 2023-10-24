@@ -1,0 +1,376 @@
+@media screen and (max-width: 1200px) {
+  header {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .first-section-left {
+    font-size: 2rem;
+    padding: 7vw 3vw 0 9vw;
+  }
+
+  .section-four {
+    height: 55vw;
+  }
+
+  .section-four-box {
+    width: 90%;
+  }
+
+  .section-four-box2-heading {
+    margin: 0 0 2vw 20px;
+  }
+
+  .section-four-box2-heading h2 {
+    font-size: 2rem;
+  }
+
+  .section-four-box2-container {
+    width: 90%;
+    margin: 2vw 2vw 3vw 1vw;
+  }
+
+  .section-six {
+    height: 40vw;
+  }
+
+  .section-six-container {
+    width: 95%;
+  }
+
+  .section-seven {
+    height: 38vw;
+  }
+
+  .section-eight {
+    height: 55vw;
+  }
+
+ 
+
+  .section-eight-container-box {
+    height: 48vw;
+  }
+
+  .section-eight-container-box {
+    height: 35vw;
+  }
+
+  .footer-container1 {
+    width: 100%;
+  }
+
+  .footer-container-box1 {
+    width: 33%;
+  }
+
+  .footer-container2 {
+    width: 90%;
+    height: 47vw;
+  }
+
+
+}
+
+@media screen and (max-width: 900px) {
+  
+
+  nav ul li{
+    font-size: small;
+  }
+  .right2 button{
+    padding: 7px 20px;
+  }
+  
+  
+  .section-first{
+    height: 45vh;
+  }
+  
+  .first-section-left p{
+    font-size: .8rem;
+  }
+
+  
+  .section-third{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-third-box{
+    width: 95%;
+  }
+  .box-part1{
+    width: 20%;
+  }
+
+  .box-part2{
+    width: auto;
+  }
+
+  .box-part2 h4{
+    font-size: 1.4rem;
+    margin-top: 25px;
+  }
+  .section-four{
+    height: 90vw;
+  }
+
+  .section-four-box{
+    height: 70vw;
+  }
+  
+
+  
+  .section-four-box2-container{
+    height: 21vw;
+  }
+
+  .client-box-details h1 {
+    font-size: 45px;
+  }
+  .client-box-details p{
+    font-size: small;
+  }
+  .section-six{
+    height: 65vw;
+  }
+  .section-six-container{
+    height: 55vw;
+  }
+
+  .photos-of-vehicle{
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .types-of-vehicle h1{
+    font-size: 40px;
+  }
+
+  .types-of-vehicle ul{
+    margin: 10px 0 0 84px;
+  }
+
+  .types-of-vehicle ul li{
+    font-size: initial;
+  }
+
+  .section-seven{
+    height: 55vw;
+  }
+
+  .section-eight{
+    height: 65vw;
+  }
+
+  .footer-container1{
+    height: 20vw;
+    font-size: small;
+  }
+
+  .footer-container2{
+    height: 75vw;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  nav img{
+    width: 20vw;
+  }
+
+  nav ul{
+    display: none;
+  }
+  .first-section-left{
+    padding: 7vw 3vw 0 6vw;
+    font-size: 1.7rem;
+  }
+  .fa-solid{
+    display: inline;
+    padding: 20px;
+  }
+
+  .right2 button{
+    display: none;
+  }
+
+  .first-section-right img{
+    top: 2%;
+  }
+
+  .section-four{
+    height: auto;
+  }
+
+ .section-four-box {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section-four-box2{
+  width: 90%;
+  margin-top: 0;
+  margin-bottom: 5vw;
+}
+
+
+
+.section-four-box2-container{
+  height: 15vw;
+}
+
+.client-box{
+  width: 95%;
+}
+  
+.client-box-details{
+  height: 95%;
+}
+.client-box-details h1{
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.client-box-details p {
+  font-size: x-small;
+}
+
+.section-six{
+  height: 75vw;
+}
+
+.section-seven{
+  height: 100vw;
+}
+.section-seven h1{
+  
+  font-size: 2rem;
+  padding: 23px 0 20px 53px;
+
+}
+.section-eight-container-box h4{
+  font-weight: 400;
+  font-size: 9px;
+}
+
+.customer-comments-box1-comment p{
+  font-size: smaller;
+}
+
+.section-eight{
+  height: 75vw;
+}
+
+.footer-container2{
+  display: block;
+  height: 130vw;
+}
+.footer-container2-box1{
+  width: 100%;
+  height: auto;
+}
+.footer-container2-box2{
+  width: 100%;
+  height: auto;
+}
+
+.footer-container2-box1-part1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.footer-container2-box1-part1 ul{
+  padding: 0 0 0 72px;
+}
+.section-four-box2-container{
+  height: 25vw;
+}
+
+.section-six{
+  height: 75vw;
+}
+.types-of-vehicle h1{
+  font-size: 25px;
+  margin: 70px 0 12px 60px;
+}
+.types-of-vehicle h3{
+  font-size: 1rem;
+}
+
+.footer-container-box1-part2{
+  font-size: xx-small;
+}
+
+.copyrights{
+  font-size: small;
+}
+}
+
+
+@media screen and (max-width: 576px) {
+  .right2 button{
+    display: none;
+  }
+  .fa-solid{
+    display: inline;
+  }
+  .client-box{
+    height: 20vw;
+    margin-bottom: 5vw;
+  }
+
+  .client-box-details h1{
+    font-size: 35px;
+  }
+
+  .section-six-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photos-of-vehicle{
+    margin-top: 20px;
+    width: 70%;
+  }
+  .types-of-vehicle{
+    width: 100vw;
+  }
+  .section-six{
+    height: 115vw;
+  }
+
+  .types-of-vehicle h1{
+    margin: 0px 0 12px 60px;
+  }
+
+  .section-seven{
+    height: 115vw;
+  }
+
+  .section-eight h1{
+    font-size: larger;
+  }
+
+  .section-eight-container-box h6{
+    font-weight: 200;
+  }
+
+  .footer-container2{
+    height: 185vw;
+  }
+
+  .footer-container2-box2-newsletter{
+    margin-left: 20px;
+  }
+}
